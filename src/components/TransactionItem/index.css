@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #7e858e;
+  border-right: 1px solid #7e858e;
+  border-left: 1px solid #7e858e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .table-row {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.table-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+@media (min-width: 768px) {
+  .table-cell {
+    font-size: 14px;
+  }
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-icon {
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .delete-icon {
+    margin-right: 24px;
+  }
+}

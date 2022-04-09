@@ -1,0 +1,213 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moneyManager-page {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 140px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .header {
+    align-items: flex-start;
+    padding-left: 55px;
+    height: 100%;
+  }
+}
+.user-name {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #1e293b;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .user-name {
+    font-size: 32px;
+    text-align: left;
+    margin-top: 40px;
+  }
+}
+.header-para {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+.app-name {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .header-para {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+}
+.detail-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .detail-cards-container {
+    flex-direction: row;
+  }
+}
+.addTransaction-history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .addTransaction-history-container {
+    flex-direction: row;
+  }
+}
+
+.form {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding-top: 34px;
+  padding-left: 28px;
+  padding-right: 40px;
+  padding-bottom: 34px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .form {
+    width: 40%;
+  }
+}
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.form-element {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #7e858e;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.input-bar {
+  outline: none;
+  border: 1px solid #7e858e;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  border-radius: 6px;
+  color: black;
+  width: 90%;
+}
+.add-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0b69ff;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.transactionHistory-container {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding-top: 34px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 34px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .transactionHistory-container {
+    width: 55%;
+    min-height: 455px;
+    align-self: flex-start;
+  }
+}
+.table-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.transactions-table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+.transaction-table {
+  padding-left: 0px;
+  margin: 0px;
+}
+.table-header {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #7e858e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+}
+@media (min-width: 768px) {
+  .table-header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+@media (min-width: 768px) {
+  .header-cell {
+    font-size: 16px;
+  }
+}
